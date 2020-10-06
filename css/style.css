@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container php */
+.list-item li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.container-faq {
+    width: 60%;
+    margin: auto;
+    padding: 10px 80px;
+    text-align: left;
+}
+
+h2 {
+    margin-top: 20px;
+}
+/* fine container php */
+
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-list li {
+    list-style: none;
+    align-self: flex-end;
+    padding: 10px 20px;
+}
